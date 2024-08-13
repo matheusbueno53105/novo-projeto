@@ -1,43 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>alurabook</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
-</head>
-<body>
-    <header class="cabecalho">
-        <div class="conainer">
-            <input type="checkbox" id="menu" class="container_botao">
-            <label for="menu">
-                <span class="cabecalho__menu-hamburger"</span>
-            </label>
-            <ul> class="lista-menu"
-                <li> class="lista-menu-titulo">categoria</li>
-             <li> class="lista-menu-item">
-                <a href="#" class="lista-menu_link">programação</a>
-             </li>
-             <li>class="lista-menu-item">
-                <a href="#" class="lista-menu_link">front-end</a>
-             </li>
-             <li>class="lista-menu-item">
-                <a href="#" class="lista-menu_link">business</a>
-             </li>
-             <li>class="lista-menu-item">
-                <a href="#" class="lista-menu_link">desing & Ux</a>
-             </li>
-            </ul>
-            
-            <img src="logo.svg" alt="logo da alurabook" class="container_image"
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+        <title>AluraBooks</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                    <span class="cabeçalho__menu-hamburguer"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">categorias</li>
+                    <li class="lista-meu_item">
+                        <a href="#" class="lista-menu__link">Programação</a>
+                    </li>
+                    <li class="lista-meu_item">
+                        <a href="#" class="lista-menu__link">Front-end</a>
+                    </li>
+                    <li class="lista-meu_item">
+                        <a href="#" class="lista-menu__link">Infraestrutura</a>
+                    </li>
+                    <li class="lista-meu_item">
+                        <a href="#" class="lista-menu__link">Business</a>
+                    </li>
+                    <li class="lista-meu_item">
+                        <a href="#" class="lista-menu__link">Design & Ux</a>
+                    </li>
+                </ul>
+            <span class="cabecalho__menu_hamburguer"></span>
+            <img src="./Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
         </div>
         <div class="container">
-        <span class="cabecalho__menu-hamburger"></span>
-        <img src="img/logo.svg" alt="logo da alurabooks">
-        <a href="#"> <img src="img/favorito.svg" alt="meus favoritos"></a>
-        <a href="#"> <img src="img/compras.svg" alt="carrinho de compras"></a>
-        <a href="#"> <img src="img/usuario.svg" alt="meu perfil"></a>
-    </header>
-</body>
-</html>
+            <a href="#"><img src="./Favorito.svg" alt="Meus Favoritos" class="container__imagem"></a>
+            <a href="#"><img src="./Compras.svg" alt="Carrinho de Compras" class="container__imagem"></a>
+            <a href="#"><img src="./Usuario.svg" alt="Meu Perfil" class="container__imagem"></a>
+            <section class="benner">
+                <h2 claas="benner__titulo">Já sabe por onde começar?</h2>
+                <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+                <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitural?">
+            </section>
+        </div>
+        <section class="carrossel">
+            <h2 class="carrossel_titulo">Novos lançamentos</h2>
+        </section>
+        </header>
+    </body>
+    
+   </html>
